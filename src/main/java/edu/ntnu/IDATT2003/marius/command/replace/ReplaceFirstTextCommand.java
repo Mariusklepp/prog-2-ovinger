@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2003.marius;
+package edu.ntnu.idatt2003.marius.command.replace;
 
 public class ReplaceFirstTextCommand extends ReplaceTextCommand {
 

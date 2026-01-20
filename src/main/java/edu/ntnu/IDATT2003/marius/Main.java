@@ -1,6 +1,7 @@
-package edu.ntnu.IDATT2003.marius;
+package edu.ntnu.idatt2003.marius;
 
 public class Main {
     static void main() {
+
     }
 }
