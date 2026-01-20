@@ -15,7 +15,7 @@ public class WrapTextCommandTest {
     }
 
     @Test
-    void executeTest() {
+    void executeIsSuccessful() {
         assertEquals("--Hello==",wrapCommand.execute("Hello"));
     }
 

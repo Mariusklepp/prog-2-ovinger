@@ -16,7 +16,7 @@ class ReplaceTextCommandTest {
     }
 
     @Test
-    void executeTest() {
+    void executeIsSuccessful() {
        assertEquals("I like running. running is fun",
                 replaceCommand.execute("I like swimming. swimming is fun"));
     }

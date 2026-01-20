@@ -16,7 +16,7 @@ public class ReplaceFirstTextCommandTest {
     }
 
     @Test
-    void executeTest() {
+    void executeIsSuccessful() {
         assertEquals("running is fun, but swimming is also fun",
                 replaceFirstCommand.execute("swimming is fun, but swimming is also fun"));
     }
