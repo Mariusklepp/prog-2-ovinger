@@ -1,8 +1,8 @@
 package edu.ntnu.IDATT2003.marius;
 
 public class ReplaceTextCommand implements TextCommand {
-    public String target;
-    public String replacement;
+    private final String target;
+    private final String replacement;
 
     public ReplaceTextCommand(String target, String replacement){
         this.target = target;
