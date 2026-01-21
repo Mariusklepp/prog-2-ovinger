@@ -15,7 +15,6 @@ public class WrapLinesTextCommand extends WrapTextCommand{
             result += getOpening() + lines[i] + getEnd();
             if (i < lines.length - 1) {
                 result += System.lineSeparator();
-
             }
         }
         return  result;

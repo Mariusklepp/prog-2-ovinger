@@ -9,7 +9,10 @@ public class CapitalizeTextCommand implements TextCommand {
 
     @Override
     public String execute(String text) {
-        String firstLetter = text.substring(0,1);
-        return firstLetter.toUpperCase() + text.substring(1);
+        if (text == null || text.isBlank()) {
+            return text;
+        }
+
+        return Character.toUpperCase(text.charAt(0)) + text.substring(1);
     }
 }
